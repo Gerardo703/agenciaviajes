@@ -1,0 +1,30 @@
+extends ./layout/index
+
+block contenido
+    main.container.mt-5
+        .row
+            .col-md-5
+                img(src="img/nosotros.jpg", alt="imagen sobre nosotros", class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+                Blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut convallis enim sit amet molestie vulputate. Cras sit amet dignissim odio. Suspendisse dolor risus, elementum vitae urna eget, imperdiet elementum augue. Proin in euismod urna, eu tempor felis. Nullam dignissim mollis leo accumsan facilisis. Vestibulum aliquam nibh eleifend est mollis, at luctus ante hendrerit. Praesent vel vehicula justo. Praesent feugiat leo eget est ullamcorper semper.
+
+                p Aliquam fermentum enim in rutrum tincidunt. Sed dapibus at ante rutrum dapibus. Nulla euismod, libero quis finibus bibendum, sapien lorem vehicula lacus, pulvinar porttitor turpis tortor a ante. Nullam bibendum elit lectus, at pellentesque nisi sodales ac. Phasellus semper sagittis lacinia.
+
+                p Quisque iaculis semper turpis vitae convallis. Morbi augue sapien, euismod id interdum ac, tempus ut velit. Cras pulvinar quis nulla nec posuere. Donec fermentum eget risus vel placerat.
+
+    .listado-iconos
+        .container.mt-5.py-5.text-center 
+            .row 
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="Seguridad")
+                    h2.mb-4 Seguridad
+                    p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus sequi, at voluptatum quam impedit quisquam doloribus hic quae magni ex.
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="Destinos")
+                    h2.mb-4 Mejores Destinos
+                    p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus sequi, at voluptatum quam impedit quisquam doloribus hic quae magni ex.
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="Precios")
+                    h2.mb-4 Los Mejores Precios
+                    p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus sequi, at voluptatum quam impedit quisquam doloribus hic quae magni ex.
